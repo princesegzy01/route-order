@@ -1,0 +1,23 @@
+[18-Nov-2014 16:42:54 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_TinyHttpException' with message 'error setting certificate verify locations:
+  CAfile: /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/cacert.pem
+  CApath: none' in /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/TinyHttp.php:111
+Stack trace:
+#0 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio.php(228): Services_Twilio_TinyHttp->__call('post', Array)
+#1 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio.php(228): Services_Twilio_TinyHttp->post('/2010-04-01/Acc...', Array, 'From=%2B1208696...')
+#2 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#3 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_c in /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/TinyHttp.php on line 111
+[18-Nov-2014 16:45:45 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_TinyHttpException' with message 'error setting certificate verify locations:
+  CAfile: /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/cacert.pem
+  CApath: none' in /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/TinyHttp.php:111
+Stack trace:
+#0 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio.php(228): Services_Twilio_TinyHttp->__call('post', Array)
+#1 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio.php(228): Services_Twilio_TinyHttp->post('/2010-04-01/Acc...', Array, 'From=%2B1208696...')
+#2 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#3 /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_c in /home/drugstoc/public_html/wp-content/plugins/route-order/twilio-php-master/Services/Twilio/TinyHttp.php on line 111
+[01-Dec-2014 06:07:07 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/drugstoc/public_html/wp-content/plugins/route-order/processRoute.php on line 153
+[01-Dec-2014 06:16:01 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/drugstoc/public_html/wp-content/plugins/route-order/processRoute.php on line 153
+[01-Dec-2014 07:38:21 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/drugstoc/public_html/wp-content/plugins/route-order/processRoute.php on line 112
+[01-Dec-2014 14:40:58 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/drugstoc/public_html/wp-content/plugins/route-order/processRoute.php on line 39
+[01-Dec-2014 15:23:49 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/drugstoc/public_html/wp-content/plugins/route-order/processRoute.php on line 40
+[01-Dec-2014 09:24:40 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/drugstoc/public_html/wp-content/plugins/route-order/processRoute.php on line 40
+[01-Dec-2014 15:58:56 UTC] PHP Fatal error:  Call to undefined function number_form() in /home/drugstoc/public_html/wp-content/plugins/route-order/processRoute.php on line 40
